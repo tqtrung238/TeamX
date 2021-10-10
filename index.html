@@ -10,7 +10,29 @@
 	<link rel="icon" href="team x icon.png" type="image/x-icon">
 </head>
 
-<body style="background-image: linear-gradient(to bottom right, lime, aqua);">
+<style> 
+@keyframes example {
+  0% {
+    background: #ee6055;
+  }
+  25% {
+    background: #60d394;
+  }
+  50% {
+    background: #aaf683;
+  }
+  75% {
+    background: #ffd97d;
+  }
+  100% {
+    background: #ff9b85;
+  }
+}
+</style>
+
+<body style="animation-name: example;
+  animation-duration: 4s;animation-iteration-count: infinite;
+  animation-direction: alternate;">
 	<table valign="top" width="100%">
 		<tr>
 			<td><img src="header.png" alt="Logo TEAM X" width="100%"></td>
